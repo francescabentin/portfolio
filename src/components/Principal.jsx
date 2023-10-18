@@ -18,7 +18,7 @@ function Principal() {
             <div >
                 <Menu />
                 <Introduction  />
-                <Projects  />
+                <Projects   />
                 <Technologies  />
                 <Contact  />
             </div>

@@ -4,7 +4,7 @@ import imageLanding from "../images/avatar.jpg";
 import StarfieldEffect from "./StarfieldEffect";
 import resume from "../downloads/resume.pdf";
 import Zoom from "react-reveal/Zoom";
-import phrases from "../nombres.json";
+import phrases from "../data/nombres.json";
 import { useEffect, useState } from "react";
 
 
