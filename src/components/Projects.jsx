@@ -104,7 +104,7 @@ AOS.init({
                     </div>
                 </li>
 
-                <li className="projects-li">
+                <li className="projects-li" data-aos="fade-up">
                     
                     <img className="card-img" src={proyecto5} alt="landing page screenshot"></img>
 <p className='title-project'>BURGUER-RESTAURANT WEBSITE</p>
@@ -120,7 +120,7 @@ AOS.init({
                     </div>
                 </li>
 
-                <li className="projects-li"   data-aos="top-center">
+                <li className="projects-li"   data-aos="fade-up">
                
                     <img className="card-img" src={projecto6} alt="landing page screenshot"></img>
  <p className='title-project'>HARRY POTTER FAN PAGE</p>
@@ -135,7 +135,7 @@ AOS.init({
                         <a className='links-projects' target="_blank" rel="noopener noreferrer" href="https://github.com/francescabentin/CoctailFinder-project"><img src={iconGit} className="icon-git" alt="git link" /></a>
                     </div>
                 </li>
-                <li className="projects-li" data-aos="fade-up-right">
+                <li className="projects-li" data-aos="fade-up">
                   
                     <img className="card-img" src={projecto7} alt="landing page screenshot"></img>
                       <p className='title-project'>ABOUT US WEBSITE</p>
@@ -151,7 +151,7 @@ AOS.init({
                         </a>
                     </div>
                 </li>
-                <li className="projects-li"  data-aos="fade-left">
+                <li className="projects-li"  data-aos="fade-up">
                     
                     <img className="card-img" src={projecto8} alt="landing page screenshot"></img>
                     <p className='title-project'>BRAND PUBLICITY LAYOUT</p>

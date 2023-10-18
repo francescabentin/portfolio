@@ -41,8 +41,9 @@
 
 
   @media screen and (min-width: 768px) and (max-width: 1202px) {
-    margin: 1rem 1rem 3rem 3rem;
+    margin: 1rem 1rem 1rem 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 3px;
   }
 
    @media screen and (min-width: 1200px){
@@ -185,5 +186,9 @@
       transform: scale(1.2);
     }
   }
+}
+
+ul{
+  padding-left: 0px !important;
 }
 

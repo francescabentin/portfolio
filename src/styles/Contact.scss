@@ -9,7 +9,7 @@
   margin-top: 5rem;
 
  @media screen and (min-width: 768px) {
-  margin-top: 2rem;
+  margin-top: 5rem;
  }
 
   .title-contact {
@@ -30,7 +30,7 @@
     @media screen and (min-width: 1024px) {
       margin-top: 7rem;
       margin-left: 10rem;
-      margin-bottom: 4rem;
+      margin-bottom: 6rem;
     }
 
 
@@ -62,7 +62,7 @@
       @media screen and (min-width: 768px) and (max-width: 1024px) {}
 
       @media screen and (min-width: 1024px) {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
         margin-top: 50px;
       }
 
@@ -141,10 +141,11 @@
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
-    margin: auto;
+
     padding: 0 20px;
     width: 33.33%;
     text-align: center;
+
   }
 }
 
@@ -179,7 +180,7 @@ input {
 }
 
 textarea {
-  margin-top: 10px;
+  margin-top: 3% !important;
   font-size: 0.8em;
   font-family: 'proxima-nova-soft', sans-serif;
   border: 1px solid #ddd;
@@ -196,6 +197,7 @@ textarea {
   background-color: #ccc;
   box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
   transition: 300ms ease-in-out;
+
   &:focus {
   background-color: white;
   transform: scale(1.05);
@@ -207,7 +209,7 @@ textarea {
 
 .input-1 {
   width: 80%;
-  margin: 5px 25px;
+  margin: 1% 10%;
   border: none;
   outline: none;
   border-radius: 15px;
@@ -222,10 +224,10 @@ textarea {
              -13px -13px 100px #ffffff;
 }
   @media screen and (min-width: 768px){
-    margin: 10px 25px;
+   width: 80%
   }
    @media screen and (min-width: 1024px){
-    margin: 15px 25px;
+  
   }
 }
 
@@ -238,7 +240,7 @@ textarea {
   background-color: white;
   border-width: 1px;
   color: #363636;
-  margin-top: 20px;
+  margin-top: 5%;
   border: none;
   outline: none;
   border-radius: 15px;
@@ -250,3 +252,11 @@ textarea {
 
 }
 
+.form-container{
+  @media screen and (min-width: 768px){
+   width: auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  }
+}
