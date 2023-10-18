@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 
 function Card({ card }) {
 
-  const baseUrl = "https://francescabentin.github.io/portfolio"
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -29,7 +28,7 @@ function Card({ card }) {
               data-aos-offset="100">
               <img
   className="card-img"
-  src={`${baseUrl}/${card.image}`}
+  src={`/${card.image}`}
   alt="landing page screenshot"
 />
               <p className="title-project">{card.title}</p>
