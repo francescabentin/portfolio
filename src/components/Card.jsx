@@ -28,7 +28,7 @@ function Card({ card }) {
               data-aos-offset="100">
               <img
   className="card-img"
-  src={`/${card.image}`}
+  src={`${process.env.PUBLIC_URL}/${card.image}`}
   alt="landing page screenshot"
 />
               <p className="title-project">{card.title}</p>
