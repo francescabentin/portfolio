@@ -4,6 +4,7 @@
 
 
   .menu-roll {
+    height: 100vh;
     position: fixed;
     background-color: cadetblue;
     text-align: center;
@@ -14,22 +15,20 @@
     top: -10px;
     left: 0;
     z-index: 9999;
-    height: 100vh;
-    padding-top: 40%;
+    padding-top: 50%;
     display: flex;
     width: 100%;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
     @media screen and (min-width: 500px){
-      padding-top: 10%;
+      padding-top: 0%;
     justify-content: center;
     }
 
       @media screen and (min-width: 1024px) {
     padding: 0px;
     top: -10%;
-
+    border-radius: 20px;
     }
 
     @keyframes move {
@@ -75,19 +74,7 @@
     .menu-link {
       cursor: pointer;
 
-      &::after {
-        content: "";
-        display: block;
-        height: 1px;
-        background-color: rgb(102, 101, 101);
-        transform: scale(0, 1);
-        transform-origin: center;
-        transition: transform 0.25s;
-      }
-
-      &:hover::after {
-        transform: scale(1, 1);
-      }
+     
     }
   }
 
@@ -110,6 +97,9 @@
   margin: auto;
   display: block;
   height: calc(4px * 3 + 11px * 2);
+     @media screen and (min-width: 1300px) {
+   left: -35%;
+    }
 
 }
 
