@@ -1,0 +1,24 @@
+
+// Fuentes:
+$font: 'Signika', sans-serif;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  font-family: 'signika';
+  background-color: black !important;
+  min-width: 320px;
+}
+
+* {
+ @media screen and (max-width: 350px) {
+    max-width: 345px;
+    }
+  }
+

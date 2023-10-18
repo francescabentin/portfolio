@@ -1,0 +1,97 @@
+@import "App.scss";
+
+.tools__title {
+  margin-bottom: 5%;
+  margin-top: 25%;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  color: cadetblue;
+ 
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    margin: 5rem 0rem 2rem 3rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+}
+
+.tools__stack{
+
+display: flex;
+justify-content: center;
+}
+
+
+.tools__stack__lista{
+ margin: 2rem;
+ display: flex;
+ gap:10px;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: center;
+ max-width: 1024px;
+
+}
+  
+.title{
+  font-size: 0.8rem;
+  font-family: $font;
+     @media screen and (min-width: 768px) {
+      font-size: 1rem;
+     }
+}
+
+.img{
+  width: 50px;
+  height: 50px;
+     @media screen and (min-width: 768px)  {
+   width: 80px;
+   height: 80px;
+  }
+}
+
+
+.element {
+ color: white;
+ text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  border-radius: 50%;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid cadetblue; 
+  padding: 15px;
+
+   @media screen and (min-width: 768px)  {
+   justify-content: space-between;
+   padding: 20px;
+   width: 150px;
+   height: 150px;
+   margin: 5px;
+   
+  }
+}
+
+.element:hover {
+  transform: translateY(-2px) rotate(360deg);
+
+}
+
+
+
+
+
+
+

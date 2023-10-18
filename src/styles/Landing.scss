@@ -1,0 +1,263 @@
+@import "App.scss";
+
+.landing {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 100vh;
+
+ 
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      font-size: 1.5rem;
+      z-index: 9999;
+      color: white;
+      @media screen and (min-width: 1024px) {
+        font-size: 2.8rem;
+        color: white;
+      }
+    }
+
+    &__installer {
+     
+      z-index: 9999;
+    cursor: pointer;
+     
+    }
+
+    &__image {
+      width: 320px;
+      height: 240px;
+      z-index: 999;
+
+      @media screen and (min-width: 1024px) {
+        width: 300px;
+        height: 300px;
+      }
+
+      padding-bottom: 10px;
+    }
+
+    &__span {
+      padding-top: 15px;
+      font-size: 2rem;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      animation: typing 2s steps(40) infinite,
+        blink-caret 0.75s step-end infinite;
+      text-align: center;
+      color: white;
+      z-index: 999;
+       @media screen and (min-width: 1024px) {
+   font-size: 2rem;
+      }
+
+    }
+  }
+
+  &__button {
+    background-color: whitesmoke;
+    border: 1px solid rgb(143, 139, 139);
+    border-radius: 50px;
+    height: 1.5rem;
+    width: 9.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(66, 66, 66);
+    font-family: $font;
+    align-self: center;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px rgb(50, 130, 138);
+    margin-top: 3rem;
+    z-index: 9999;
+    transition: transition 0.2s ease-in-out;
+
+    &:hover {
+      font-size: 1rem;
+    }
+
+    @media screen and (min-width: 1000px) {
+      height: 3rem;
+      width: 13rem;
+      font-size: 1.4rem;
+      margin: 3rem;
+      &:hover {
+        font-size: 1.7rem;
+        
+      }
+    }
+
+    :link,
+    :visited {
+      text-decoration: none;
+      color: rgb(80, 79, 79);
+    }
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-right-color: transparent;
+  }
+
+  50% {
+    border-right-color: #000;
+  }
+}
+
+
+// boton doownload
+
+.installer {
+  margin-top: 10PX;
+  width: 200px;
+  height: 40px;
+  z-index: 10000;
+}
+
+.installer label {
+  position: absolute;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.installer label input {
+  display: none;
+}
+
+.installer label span {
+  position: absolute;
+  height: 40px;
+  width: 200px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background: rgb(56, 113, 117);
+  border-radius: 5px;
+}
+
+.installer label input:checked ~ span {
+  background: cadetblue;
+  animation: downloadSuccess 2.1s ease;
+}
+
+.installer label span:after {
+  content: 'DOWNLOAD CV';
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 10%;
+}
+
+.installer label input:checked ~ span:after {
+  content: 'Thank you!';
+  animation: downloadState 3s;
+}
+
+.installer label span:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background: rgba(255,255,255,.2);
+}
+
+
+.installer label input:checked ~ span:before {
+  animation: downloadProgress 3s cubic-bezier(.67,.13,.1,.81);
+}
+
+@keyframes downloadSuccess {
+  0%, 90% {
+    background: #3F8EFC;
+  }
+
+  100% {
+    background: #87E544;
+  }
+}
+
+@keyframes downloadState {
+  0%, 95% {
+    content: 'DOWNLOADING...'
+  }
+
+  100% {
+    content: 'Thank you for download!'
+  }
+}
+
+@keyframes downloadProgress {
+  0% {
+    width: 5%;
+    opacity: 1;
+  }
+
+  35% {
+    width: 17%;
+  }
+
+  64% {
+    width: 51%;
+  }
+
+  81% {
+    width: 70%;
+  }
+
+  90% {
+    width: 86%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+.landing__intro__link{
+  z-index: 10000;
+}

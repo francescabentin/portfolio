@@ -1,0 +1,252 @@
+@import "App.scss";
+
+.contact {
+
+  font-family: $font;
+  overflow: hidden;
+  margin: 0;
+  background-color: black;
+  margin-top: 5rem;
+
+ @media screen and (min-width: 768px) {
+  margin-top: 2rem;
+ }
+
+  .title-contact {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: cadetblue;
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      margin: 0rem 0rem 4rem 4rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-top: 7rem;
+      margin-left: 10rem;
+      margin-bottom: 4rem;
+    }
+
+
+  }
+
+
+  .container {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+    @media screen and (min-width: 1024px) {
+
+      display: flex;
+      flex-direction: column;
+
+    }
+
+
+    .container-links {
+      margin-top: 10px;
+      border-radius: 5px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+      gap: 5px;
+      padding-top: 20px;
+
+      @media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+      @media screen and (min-width: 1024px) {
+        margin-bottom: 150px;
+        margin-top: 50px;
+      }
+
+      .list-links {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+          height: 52.8px;
+          width: 52.8px;
+        }
+
+        @media screen and (min-width: 1024px) {
+          height: 52.8px;
+          width: 52.8px;
+        }
+
+        .links-contact {
+          cursor: pointer;
+
+          .icon {
+            height: 41.6px;
+            width: 41.6px;
+
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
+              height: 52.8px;
+              width: 52.8px;
+            }
+
+            @media screen and (min-width: 1024px) {
+              height: 52px;
+              width: 52px;
+            }
+          }
+
+          .icon-github {
+            width: 3.5rem;
+            height: 3.5rem;
+          }
+
+          .icon-linkedin {
+            height: 45px;
+            width: 45px;
+            padding-bottom: 5px;
+          }
+
+          .icon-linkedin,
+          .icon-github {
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+
+          .icon-twitter {
+            width: 2.6rem;
+            position: relative;
+            left: 3px;
+
+
+            &:hover {
+              transform: scale(1.2);
+            }
+
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    margin: auto;
+    padding: 0 20px;
+    width: 33.33%;
+    text-align: center;
+  }
+}
+
+
+.message {
+  margin-top: 10px;
+  background-color: #363636;
+  color: white;
+  width: 80%;
+  max-width: 200px;
+  text-align: left;
+}
+
+input {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-family: 'proxima-nova-soft', sans-serif;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  font-family: $font;
+  border-radius: 5px;
+  &:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+  
+}
+
+textarea {
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-family: 'proxima-nova-soft', sans-serif;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  font-family: $font;
+  height: 150px;
+  border-radius: 5px;border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+  &:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+}
+
+
+.input-1 {
+  width: 80%;
+  margin: 5px 25px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+  &:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+  @media screen and (min-width: 768px){
+    margin: 10px 25px;
+  }
+   @media screen and (min-width: 1024px){
+    margin: 15px 25px;
+  }
+}
+
+.submit {
+  display: block;
+  margin: 0px auto;
+  width: 20%;
+  font-family: $font;
+  border-radius: 6px;
+  background-color: white;
+  border-width: 1px;
+  color: #363636;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 0.3rem;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+
+
+}
+
