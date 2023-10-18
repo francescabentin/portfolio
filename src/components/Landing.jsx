@@ -12,7 +12,14 @@ import { useEffect, useState } from "react";
 function Landing() {
 
   const [word, setWord] = useState("Dive In");
- 
+  
+  const downloadResume = () => {
+     const link = document.createElement("a");
+    link.href = resume; 
+    link.target = "_blank";
+    link.download = "Cv-FrancescaBentin"; 
+    link.click();
+  };
 
 useEffect(() => {
   const fetchData = async () => {
@@ -46,15 +53,16 @@ useEffect(() => {
           src={imageLanding}
           alt="avatar"
         />
-        <a
-          className="landing__intro__link"
-          id="downloadLink"
-          href={resume}
-          download="resume.pdf">
-        <div class="installer" >    
-	<label for="progressLinux"><input id="progressLinux" type="radio"/> <span></span></label> 
-</div>
-      </a>
+       
+         
+    
+            <div className="installer" onClick={downloadResume}>
+              <label for="progressLinux">
+                <input id="progressLinux" type="radio" /> <span></span>
+              </label>
+            </div>
+       
+   
        
       </div>
       
