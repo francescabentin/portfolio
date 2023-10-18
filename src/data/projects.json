@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "PRESENTATION CARDS CREATOR",
-    "image": "proyecto1.png",
+    "image": "images/proyecto1.png",
     "tech": ["HTML5", "CSS3", "Javascript"],
     "webLink": "https://francescabentin.github.io/presentation-cards/",
     "gitLink": "https://github.com/francescabentin/presentation-cards"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "HANGMAN GAME",
-    "image": "proyecto2.png",
+    "image": "images/proyecto2.png",
     "tech": ["HTML5", "CSS3", "Javascript", "React"],
     "webLink": "https://francescabentin.github.io/hangman-game-project/",
     "gitLink": "https://github.com/francescabentin/hangman-game-project"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "PROJECTS DATA BASE API",
-    "image": "proyecto3.png",
+    "image": "images/proyecto3.png",
     "tech": ["HTML5", "CSS3", "Javascript", "React", "Node.js", "Sql"],
     "webLink": "https://canelo-projects.onrender.com/",
     "gitLink": "https://github.com/francescabentin/ProjectDataBase-Api"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "COCTAIL FINDER",
-    "image": "proyecto4.png",
+    "image": "images/proyecto4.png",
     "tech": ["HTML5", "CSS3", "Javascript"],
     "webLink": "https://francescabentin.github.io/CoctailFinder-project/",
     "gitLink": "https://github.com/francescabentin/CoctailFinder-project"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "BURGUER-RESTAURANT WEBSITE",
-    "image": "proyecto5.png",
+    "image": "images/proyecto5.png",
     "tech": ["HTML5", "SASS", "Javascript"],
     "webLink": "https://francescabentin.github.io/burguer-website/",
     "gitLink": "https://github.com/francescabentin/burguer-website"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "HARRY POTTER FAN PAGE",
-    "image": "projecto6.png",
+    "image": "images/projecto6.png",
     "tech": ["HTML5", "CSS3", "Javascript"],
     "webLink": "https://francescabentin.github.io/harry-potter-fan-page/",
     "gitLink": "https://github.com/francescabentin/harry-potter-fan-page"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "title": "ABOUT US WEBSITE",
-    "image": "proyecto7.png",
+    "image": "images/proyecto7.png",
     "tech": ["HTML5", "CSS3", "Sass"],
     "webLink": "https://francescabentin.github.io/about-us-website/",
     "gitLink": "https://github.com/francescabentin/about-us-website"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "title": "BRAND PUBLICITY LAYOUT",
-    "image": "proyecto8.png",
+    "image": "images/proyecto8.png",
     "tech": ["HTML5", "CSS3", "Sass"],
     "webLink": "https://francescabentin.github.io/brand-publicity-layout/",
     "gitLink": "https://github.com/francescabentin/brand-publicity-layout"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "title": "GOOGLE WEBSITE COPY",
-    "image": "proyecto9.png",
+    "image": "images/proyecto9.png",
     "tech": ["HTML5", "CSS3", "Sass"],
     "webLink": "https://francescabentin.github.io/google-website-copy/",
     "gitLink": "https://github.com/francescabentin/google-website-copy"

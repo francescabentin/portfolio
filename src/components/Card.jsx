@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 
 function Card({ card }) {
 
+  const baseUrl = "https://francescabentin.github.io/portfolio"
+
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const rotateX = useTransform(y, [-100, 100], [-30, 30]);
@@ -26,9 +28,10 @@ function Card({ card }) {
               data-aos-anchor-placement="top-center"
               data-aos-offset="100">
               <img
-                className="card-img"
-               src={'/images/' + card.image}
-                alt="landing page screenshot"></img>
+  className="card-img"
+  src={`${baseUrl}/${card.image}`}
+  alt="landing page screenshot"
+/>
               <p className="title-project">{card.title}</p>
            <div className="project-techologies">
           {card.tech.map((tech, techIndex) => (
