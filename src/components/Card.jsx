@@ -7,21 +7,30 @@ import { useMotionValue, useTransform, motion } from "framer-motion";
 
 function Card({ card }) {
 
+  let boxVariants = {};
+const isMobile = window.matchMedia("(max-width: 767px)").matches;
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotateX = useTransform(y, [-100, 100], [-30, 30]);
-  const rotateY = useTransform(x, [-100, 100], [-30, 30]);
+ const rotateX = useTransform(y, [-100, 100], isMobile ? [0, 0] : [-30, 30]);
+  const rotateY = useTransform(x, [-100, 100], isMobile ? [0, 0] : [-30, 30]);
+
+
 
   return (
     <div style={{ perspective: 2000 }}>
-          <motion.div
+          <motion.div  
             style={{ x, y, rotateX, rotateY }}
-            drag
+            drag={!isMobile}
             dragElastic={0.18}
+            variants={boxVariants}
             dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
             while={{ cursor: "grabbing" }}
-            whileHover={{ rotateY: 20, rotateX: 20, rotateZ: -20 }}>
+              whileHover={{
+          rotateY: isMobile ? 0 : 20,
+          rotateX: isMobile ? 0 : 20,
+          rotateZ: isMobile ? 0 : -20,
+        }}>
             <li
               className="projects-li"
           >

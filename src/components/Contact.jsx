@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function Contact(props) {
   const [state, handleSubmit] = useForm("xrgwlqoy");
- console.log(state.succeeded);
+
 
  const [isHovered, setIsHovered] = useState(false);
 const projectText = "< Contact />";

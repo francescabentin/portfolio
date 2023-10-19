@@ -28,7 +28,7 @@ useEffect(() => {
       const randomIndex = Math.floor(Math.random() * phrasesArray.length);
       const selectedWord = phrasesArray[randomIndex];
       setWord(selectedWord);
-      console.log(selectedWord);
+
     } catch (error) {
       console.error("An error occurred while setting the word:", error);
       setWord('Dive In')

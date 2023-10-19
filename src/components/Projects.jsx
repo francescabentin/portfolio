@@ -35,7 +35,7 @@ function Projects () {
     <ul className="projects__list">
   {cards.map((card, index) => (
     <div key={index}    style={{ perspective: 2000 }}>
-      <Card card={card} />
+      <Card  card={card} />
     </div>
   ))}
 </ul>

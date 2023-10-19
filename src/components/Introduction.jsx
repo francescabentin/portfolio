@@ -30,11 +30,10 @@ function Introduction() {
         
       </h1>
 
-      <div className="text"  >
-     
-        <p  data-aos="fade-up">
+      <div className="text" >
+        <div data-aos="fade-up">
+     <p  >
           Hello World!
-          <br />
           <br />
           <br />
           I've always been crazy about technology, and it's been a part of my
@@ -46,7 +45,7 @@ function Introduction() {
           table and make some awesome web pages together!
         </p>
         <br />
-        <p   data-aos="fade-up">
+        <p   >
           To truly understand my abilities, I invite you to explore my{" "}
           <AnchorLink offset={() => 100} href="#projectId" className="a">
             projects{" "}
@@ -61,8 +60,10 @@ function Introduction() {
           </AnchorLink>
           section.
         </p>
+        </div>
       </div>
-    </div>
+      </div>
+
   );
 }
 
