@@ -52,7 +52,7 @@
    }
 
   .projects-li {
-    padding-top: 10px;
+
     list-style-type: none;
     background-color: cadetblue;
     color: black;
@@ -133,12 +133,11 @@
     }
   }
 
-  .card-img {
-    height: 14rem;
-    width: 16rem;
-    border: 1px solid rgb(83, 80, 80);
-    border-radius: 20px;
-  }
+
+.card-img{
+margin: 0;
+}
+  
 
  .project-techologies {
     display: flex;

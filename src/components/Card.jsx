@@ -1,7 +1,8 @@
 import Enlace from "./BoxArrowRightIcon";
 import iconGit from "../images/icon-git.png";
+import "../styles/Projects.scss";
 import { useMotionValue, useTransform, motion } from "framer-motion";
-import "aos/dist/aos.css";
+
 
 
 function Card({ card }) {
@@ -20,17 +21,14 @@ function Card({ card }) {
             dragElastic={0.18}
             dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
             while={{ cursor: "grabbing" }}
-            whileHover={{ rotateY: 40, rotateX: 20, rotateZ: -20 }}>
+            whileHover={{ rotateY: 20, rotateX: 20, rotateZ: -20 }}>
             <li
               className="projects-li"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
-              data-aos-offset="100">
-              <img
-  className="card-img"
-  src={`${process.env.PUBLIC_URL}/${card.image}`}
-  alt="landing page screenshot"
-/>
+          >
+              <div  className="card-img"   alt="landing page screenshot"  style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/${card.image})`, backgroundSize:"cover", borderRadius: "20px 20px 0 0", height: "14rem",
+  width: "100%",  backgroundPosition: "center"} }>
+
+</div>
               <p className="title-project">{card.title}</p>
            <div className="project-techologies">
           {card.tech.map((tech, techIndex) => (

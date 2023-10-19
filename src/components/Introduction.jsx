@@ -7,8 +7,8 @@ import "aos/dist/aos.css";
 
 function Introduction() {
 
-  const [showText, setShowText] = useState(false);
-
+ 
+  const [isHovered, setIsHovered] = useState(false);
   const projectText = "< About Me />";
 
 
@@ -16,22 +16,23 @@ function Introduction() {
   useEffect(() => {
     AOS.init(); 
   }, []);
-  const toggleText = () => {
-    setShowText(!showText); 
-  };
 
+  
   return (
     <div id="aboutmeId" className="introduction">
       <h1
-        className="title" onClick={toggleText}
+        className={`title ${isHovered ? "hovered" : ""}`} 
+         onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
         {" "}
-        {showText ? projectText : "About Me"}
+        {isHovered? projectText : "About Me"}
+        
       </h1>
 
-      <div className="text"  onClick={toggleText}>
+      <div className="text"  >
      
-        <p className={`text-item ${showText ? "show" : ""} text2`} onClick={toggleText}  data-aos="fade-up">
+        <p  data-aos="fade-up">
           Hello World!
           <br />
           <br />
@@ -45,7 +46,7 @@ function Introduction() {
           table and make some awesome web pages together!
         </p>
         <br />
-        <p className={`text-item ${showText ? "show" : ""} text2`} onClick={toggleText}  data-aos="fade-up">
+        <p   data-aos="fade-up">
           To truly understand my abilities, I invite you to explore my{" "}
           <AnchorLink offset={() => 100} href="#projectId" className="a">
             projects{" "}

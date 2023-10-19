@@ -1,6 +1,7 @@
 @import "App.scss";
 
 .landing {
+  font-family: "signika";
   background-color: #000;
   width: 100%;
   display: flex;
@@ -45,7 +46,7 @@
      
       z-index: 9999;
     cursor: pointer;
-     
+    
     }
 
     &__image {
@@ -73,6 +74,7 @@
       text-align: center;
       color: white;
       z-index: 999;
+    
        @media screen and (min-width: 1024px) {
    font-size: 2rem;
       }
@@ -88,7 +90,6 @@
     width: 9.5rem;
     font-weight: 600;
     cursor: pointer;
-    color: rgb(66, 66, 66);
     font-family: $font;
     align-self: center;
     text-decoration: none;
@@ -98,7 +99,10 @@
     transition: transition 0.2s ease-in-out;
 
     &:hover {
+ 
       font-size: 1rem;
+    
+
     }
 
     @media screen and (min-width: 1000px) {
@@ -173,11 +177,20 @@
   color: #fff;
   background: rgb(56, 113, 117);
   border-radius: 5px;
+  &:hover{
+    color: cadetblue;
+  background: white;
+  }
 }
 
 .installer label input:checked ~ span {
-  background: cadetblue;
+  background: white;
   animation: downloadSuccess 2.1s ease;
+  color: cadetblue;
+  &:hover{
+     color: #fff;
+  background: rgb(56, 113, 117);
+  }
 }
 
 .installer label span:after {

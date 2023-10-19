@@ -52,23 +52,23 @@
     "title": "ABOUT US WEBSITE",
     "image": "images/proyecto7.png",
     "tech": ["HTML5", "CSS3", "Sass"],
-    "webLink": "https://francescabentin.github.io/about-us-website/",
-    "gitLink": "https://github.com/francescabentin/about-us-website"
+    "webLink": "https://francescabentin.github.io/diverlopers-teamProject-1/",
+    "gitLink": "https://github.com/francescabentin/diverlopers-teamProject-1"
   },
   {
     "id": 8,
     "title": "BRAND PUBLICITY LAYOUT",
     "image": "images/proyecto8.png",
     "tech": ["HTML5", "CSS3", "Sass"],
-    "webLink": "https://francescabentin.github.io/brand-publicity-layout/",
-    "gitLink": "https://github.com/francescabentin/brand-publicity-layout"
+    "webLink": "https://francescabentin.github.io/simple-website-with-Hero-and-Menu/",
+    "gitLink": "https://github.com/francescabentin/simple-website-with-Hero-and-Menu"
   },
   {
     "id": 9,
     "title": "GOOGLE WEBSITE COPY",
     "image": "images/proyecto9.png",
     "tech": ["HTML5", "CSS3", "Sass"],
-    "webLink": "https://francescabentin.github.io/google-website-copy/",
-    "gitLink": "https://github.com/francescabentin/google-website-copy"
+    "webLink": "https://francescabentin.github.io/googleclone/",
+    "gitLink": "https://github.com/francescabentin/googleclone"
   }
 ]
