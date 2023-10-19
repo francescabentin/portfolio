@@ -10,7 +10,7 @@ function Contact(props) {
  console.log(state.succeeded);
 
  const [isHovered, setIsHovered] = useState(false);
-const projectText = "< Contact >";
+const projectText = "< Contact />";
 
 
 

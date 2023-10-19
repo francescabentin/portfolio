@@ -19,7 +19,7 @@ function Projects () {
   }, []);
 
   console.log(cards);
-  const projectText = "< Projects >";
+  const projectText = "< Projects />";
 
   AOS.init({
     duration: 1500,

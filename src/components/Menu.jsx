@@ -2,7 +2,7 @@ import "../styles/Menu.scss";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-function Menu(props) {
+function Menu() {
   const [menu, setMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -20,16 +20,17 @@ function Menu(props) {
     <div className="menu">
       <div id="menuToggle">
         <div className="iconMenu">
-        <input id="checkbox" type="checkbox" onClick={toggleMenu} />
-        <label class="toggle" for="checkbox">
-          <div class="bar bar--top"></div>
-          <div class="bar bar--middle"></div>
-          <div class="bar bar--bottom"></div>
+       <input id="checkbox" type="checkbox" checked={menu} onChange={toggleMenu} />
+        <label className="toggle" for="checkbox">
+          <div className="bar bar--top"></div>
+          <div className="bar bar--middle"></div>
+          <div className="bar bar--bottom"></div>
         </label>
         </div>
       </div>
     
-      <ul className={`${menu ? "menu-roll" : "menu"}`}>
+  
+      <ul className={`${menu ? "menu-roll" : "menuClosed"}`}>
         <li>
           <AnchorLink
             onClick={handleCloseMenu}
@@ -54,7 +55,7 @@ function Menu(props) {
             offset={() => 100}
             href="#ToolsId"
             className="menu-link">
-            Tools
+          My Stack
           </AnchorLink>
         </li>
         <li>
@@ -68,6 +69,7 @@ function Menu(props) {
         </li>
       </ul>
     </div>
+    
   );
 }
 

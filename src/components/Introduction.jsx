@@ -9,7 +9,7 @@ function Introduction() {
 
   const [showText, setShowText] = useState(false);
 
-  const projectText = "< About Me >";
+  const projectText = "< About Me />";
 
 
 

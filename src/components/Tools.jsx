@@ -23,7 +23,7 @@ import docker from "../images/docker.png";
 function Tools() {
     const [isHovered, setIsHovered] = useState(false);
 
-    const projectText = "< My Stack >";
+    const projectText = "< My Stack />";
 
 
     return (
