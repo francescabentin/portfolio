@@ -57,7 +57,7 @@ useEffect(() => {
          
     
             <div className="installer" onClick={downloadResume}>
-              <label for="progressLinux">
+              <label htmlFor="progressLinux">
                 <input id="progressLinux" type="radio" /> <span></span>
               </label>
             </div>
