@@ -39,7 +39,7 @@ function Introduction() {
           I've always been crazy about technology, and it's been a part of my
           life forever. After doing sales and marketing for a while, I finally
           took the plunge and turned my tech hobby into my dream job! Just
-          finished up the <a className="a" href="https://adalab.es/">Adalab boot camp</a>, and
+          finished up the <a className="a" rel="no follow no referer" target="_blank" href="https://adalab.es/">Adalab boot camp</a>, and
           now I'm all set to dive into web development. Check out my work, and I
           hope you'll love what you see! Can't wait to bring my passion to the
           table and make some awesome web pages together!

@@ -90,25 +90,25 @@
             width: 41.6px;
 
             @media screen and (min-width: 768px) and (max-width: 1024px) {
-              height: 52.8px;
-              width: 52.8px;
+              height: 55px;
+              width: 55px;
             }
 
             @media screen and (min-width: 1024px) {
-              height: 52px;
-              width: 52px;
+              height: 55px;
+              width: 55px;
             }
           }
 
           .icon-github {
-            width: 3.5rem;
-            height: 3.5rem;
+            width: 45px;
+            height: 45px;
           }
 
           .icon-linkedin {
-            height: 45px;
-            width: 45px;
-            padding-bottom: 5px;
+            height: 50px;
+            width: 50px;
+          
           }
 
           .icon-linkedin,
@@ -119,7 +119,8 @@
           }
 
           .icon-twitter {
-            width: 2.6rem;
+            width: 50px;
+            height: 50px;
             position: relative;
             left: 3px;
 
