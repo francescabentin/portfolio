@@ -45,7 +45,7 @@ function Introduction() {
           </AnchorLink>, where I've crafted user-friendly and eye-catching web experiences. If you're in need of a passionate, hardworking developer, check out my projects and let's  {" "}
           <AnchorLink offset={() => 100} href="#contactId" className="a enlace">
             chat{" "}
-          </AnchorLink> about how we can work together on your web development goals."
+          </AnchorLink> about how we can work together on your web development goals.
         
         </p>
         </div>
