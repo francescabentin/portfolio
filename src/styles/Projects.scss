@@ -180,11 +180,7 @@ margin: 0;
     }
   }
 
-  .enlace {
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
+ 
 }
 
 ul{
@@ -195,4 +191,20 @@ ul{
  
   touch-action: none;
 
+}
+
+
+.enlace {
+   text-decoration: none;
+  display: inline-block;
+&:hover{
+font-weight: bold;
+color: rgb(155, 243, 243);
+}
+ 
+}
+
+.enlace:hover .enlace-content {
+  font-weight: bolder;
+  transform: scale(1.2);
 }

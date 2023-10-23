@@ -33,32 +33,20 @@ function Introduction() {
       <div className="text" >
         <div data-aos="fade-up">
      <p  >
-          Hello World!
-          <br />
-          <br />
-          I've always been crazy about technology, and it's been a part of my
-          life forever. After doing sales and marketing for a while, I finally
-          took the plunge and turned my tech hobby into my dream job! Just
-          finished up the <a className="a" rel="no follow no referer" target="_blank" href="https://adalab.es/">Adalab boot camp</a>, and
-          now I'm all set to dive into web development. Check out my work, and I
-          hope you'll love what you see! Can't wait to bring my passion to the
-          table and make some awesome web pages together!
+         
+        
+          I started on this web development journey because I absolutely 🚀 love  technology. Whether it's writing code, creating cool designs, or solving tech puzzles, I enjoy every bit of web development. Thanks to my solid business 🏢 background, gained while working with big companies like Kimberly-Clark, I'm good at connecting business needs with tech solutions. That means I can build websites that not only look great but also make smart business sense. 
         </p>
         <br />
         <p   >
-          To truly understand my abilities, I invite you to explore my{" "}
-          <AnchorLink offset={() => 100} href="#projectId" className="a">
-            projects{" "}
-          </AnchorLink>
-          , accessible through both GitHub repositories and their respective
-          project websites. I welcome your visit and encourage you to reach out
-          with any questions or suggestions you may have about my work or any
-          other topics. You can also find links to my social media profiles in
-          the{" "}
-          <AnchorLink offset={() => 100} href="#contactId" className="a">
-            'contact'{" "}
-          </AnchorLink>
-          section.
+          I'm from Peru, and I embrace 🌍 diversity. I speak both English and Spanish, so I can connect with people all around the world. I take pride in my academic achievements, graduating in the top 10% of my class. I decided to follow my ❤️ and went through the <a className="a " rel="no follow no referer" target="_blank" href="https://adalab.es/"> <span className="enlace">Adalab boot camp</span></a> to fine-tune my skills. You can see my work in the portfolio on this site   {" "}
+          <AnchorLink offset={() => 100} href="#projectId" className="a enlace">
+            below {" "}
+          </AnchorLink>, where I've crafted user-friendly and eye-catching web experiences. If you're in need of a passionate, hardworking developer, check out my projects and let's  {" "}
+          <AnchorLink offset={() => 100} href="#contactId" className="a enlace">
+            chat{" "}
+          </AnchorLink> about how we can work together on your web development goals."
+        
         </p>
         </div>
       </div>

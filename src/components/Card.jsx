@@ -14,19 +14,19 @@ const isMobile = window.matchMedia("(max-width: 767px)").matches;
 const rotateX = useTransform(
     y,
     [-100, 100],
-    isMobile ? [0, 0] : [-30, 30]
+    isMobile ? [0, 0] : [-45, 0]
   );
 
   const rotateY = useTransform(
     x,
-    [-100, 100],
-    isMobile ? [0, 0] : [-30, 30]
+    [-100 , 100],
+    isMobile ? [0, 0] : [0 , 145]
   );
 
     const hoverVariants = {
-    rotateY: isMobile ? 0 : 20,
-    rotateX: isMobile ? 0 : 20,
-    rotateZ: isMobile ? 0 : -20,
+    rotateY: isMobile ? 0 : 0,
+    rotateX: isMobile ? 0 : 0,
+    rotateZ: isMobile ? 0 : 0,
   };
 
 
