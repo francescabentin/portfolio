@@ -1,5 +1,28 @@
-[
-  {
+[  {
+    "id": 0,
+    "title": "ECCOMERCE PERSONAL PROJECT",
+    "image": "images/proyecto0.png",
+    "tech": ["HTML5", "CSS3", "Javascript", "React", "Redux", "Axios"],
+    "webLink": "https://francescabentin.github.io/ecommerce-personal-project/",
+    "gitLink": "https://github.com/francescabentin/ecommerce-personal-project"
+  },
+    {
+    "id": 5,
+    "title": "BURGUER-RESTAURANT WEBSITE",
+    "image": "images/proyecto5.png",
+    "tech": ["HTML5", "SASS", "Javascript"],
+    "webLink": "https://francescabentin.github.io/burguer-website/",
+    "gitLink": "https://github.com/francescabentin/burguer-website"
+  },
+    {
+    "id": 3,
+    "title": "PROJECTS DATA BASE API",
+    "image": "images/proyecto3.png",
+    "tech": ["HTML5", "CSS3", "Javascript", "React", "Node.js", "Sql"],
+    "webLink": "https://canelo-projects.onrender.com/",
+    "gitLink": "https://github.com/francescabentin/ProjectDataBase-Api"
+  },
+      {
     "id": 1,
     "title": "PRESENTATION CARDS CREATOR",
     "image": "images/proyecto1.png",
@@ -15,14 +38,7 @@
     "webLink": "https://francescabentin.github.io/hangman-game-project/",
     "gitLink": "https://github.com/francescabentin/hangman-game-project"
   },
-  {
-    "id": 3,
-    "title": "PROJECTS DATA BASE API",
-    "image": "images/proyecto3.png",
-    "tech": ["HTML5", "CSS3", "Javascript", "React", "Node.js", "Sql"],
-    "webLink": "https://canelo-projects.onrender.com/",
-    "gitLink": "https://github.com/francescabentin/ProjectDataBase-Api"
-  },
+
   {
     "id": 4,
     "title": "COCTAIL FINDER",
@@ -31,14 +47,7 @@
     "webLink": "https://francescabentin.github.io/CoctailFinder-project/",
     "gitLink": "https://github.com/francescabentin/CoctailFinder-project"
   },
-  {
-    "id": 5,
-    "title": "BURGUER-RESTAURANT WEBSITE",
-    "image": "images/proyecto5.png",
-    "tech": ["HTML5", "SASS", "Javascript"],
-    "webLink": "https://francescabentin.github.io/burguer-website/",
-    "gitLink": "https://github.com/francescabentin/burguer-website"
-  },
+
   {
     "id": 6,
     "title": "HARRY POTTER FAN PAGE",
@@ -55,6 +64,7 @@
     "webLink": "https://francescabentin.github.io/diverlopers-teamProject-1/",
     "gitLink": "https://github.com/francescabentin/diverlopers-teamProject-1"
   },
+
   {
     "id": 8,
     "title": "BRAND PUBLICITY LAYOUT",
