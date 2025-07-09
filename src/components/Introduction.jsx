@@ -34,19 +34,15 @@ function Introduction() {
         <div data-aos="fade-up">
      <p  >
          
-        
-          I started on this web development journey because I absolutely 🚀 love  technology. Whether it's writing code, creating cool designs, or solving tech puzzles, I enjoy every bit of web development. Thanks to my solid business 🏢 background, gained while working with big companies like Kimberly-Clark, I'm good at connecting business needs with tech solutions. That means I can build websites that not only look great but also make smart business sense. 
+     Front-End Developer with a UX focus and nearly 2 years of experience in web development and user experience. Strong
+commercial background in multinational companies. Trained in 2023 through an intensive ME(R)N full-stack bootcamp.
+Currently at NFQ Solutions, implementing banking features with Vue.js 2 & 3 and collaborating with interdisciplinary
+teams (backend, design, QA).
+          I started on this web development journey because I absolutely 🚀 love  technology. Whether it's writing code, creating cool designs, or solving tech puzzles, I enjoy every bit of web development. Thanks to my solid business 🏢 background, gained while working with big companies like Kimberly-Clark, I'm good at connecting business needs with tech solutions. 
         </p>
         <br />
         <p   >
-          I'm from Peru, and I embrace 🌍 diversity. I speak both English and Spanish, so I can connect with people all around the world. I take pride in my academic achievements, graduating in the top 10% of my class. I decided to follow my ❤️ and went through the <a className="a " rel="no follow no referer" target="_blank" href="https://adalab.es/"> <span className="enlace">Adalab boot camp</span></a> to fine-tune my skills. You can see my work in the portfolio on this site   {" "}
-          <AnchorLink offset={() => 100} href="#projectId" className="a enlace">
-            below {" "}
-          </AnchorLink>, where I've crafted user-friendly and eye-catching web experiences. If you're in need of a passionate, hardworking developer, check out my projects and let's  {" "}
-          <AnchorLink offset={() => 100} href="#contactId" className="a enlace">
-            chat{" "}
-          </AnchorLink> about how we can work together on your web development goals.
-        
+          I'm from Peru, and I embrace 🌍 diversity. I speak both English and Spanish, so I can connect with people all around the world. I take pride in my academic achievements, graduating in the top 10% of my class. I decided to follow my ❤️ and went through the <a className="a " rel="no follow no referer" target="_blank" href="https://adalab.es/"> <span className="enlace">Adalab boot camp</span></a> to fine-tune my skills. 
         </p>
         </div>
       </div>

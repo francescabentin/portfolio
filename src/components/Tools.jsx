@@ -13,10 +13,8 @@ import git from "../images/git.png";
 import eslint from "../images/eslint.png";
 import redux from "../images/redux.png";
 import docker from "../images/docker.png";
-
-
-
-
+import figma from "../images/figma.png";
+import vue from "../images/vue.png";
 
 
 
@@ -99,6 +97,16 @@ function Tools() {
                       <div className="element">
                                 <h1 className="title">Eslint</h1>
                                 <img src={eslint} className="img" alt="eslint"/>
+                       
+                    </div>
+                    <div className="element">
+                                <h1 className="title">Vue</h1>
+                                <img src={vue} className="img" alt="vue"/>
+                       
+                    </div>
+                    <div className="element">
+                                <h1 className="title">Figma</h1>
+                                <img src={figma} className="img" alt="figma"/>
                        
                     </div>
 
