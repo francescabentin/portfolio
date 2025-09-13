@@ -15,6 +15,7 @@ import redux from "../images/redux.png";
 import docker from "../images/docker.png";
 import figma from "../images/figma.png";
 import vue from "../images/vue.png";
+import springboot from "../images/springboot.png";
 
 
 
@@ -107,6 +108,11 @@ function Tools() {
                     <div className="element">
                                 <h1 className="title">Figma</h1>
                                 <img src={figma} className="img" alt="figma"/>
+                       
+                    </div>
+                    <div className="element">
+                                <h1 className="title">SpringBoot</h1>
+                                <img src={springboot} className="img" alt="springboot"/>
                        
                     </div>
 

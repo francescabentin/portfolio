@@ -37,7 +37,7 @@ function Introduction() {
      Front-End Developer with a UX focus and nearly 2 years of experience in web development and user experience. Strong
 commercial background in multinational companies. Trained in 2023 through an intensive ME(R)N full-stack bootcamp.
 Currently at NFQ Solutions, implementing banking features with Vue.js 2 & 3 and collaborating with interdisciplinary
-teams (backend, design, QA).
+teams (backend, design, QA).Currently working with React and Spring Boot. Recently started a Java SE 11 programming course.
           I started on this web development journey because I absolutely 🚀 love  technology. Whether it's writing code, creating cool designs, or solving tech puzzles, I enjoy every bit of web development. Thanks to my solid business 🏢 background, gained while working with big companies like Kimberly-Clark, I'm good at connecting business needs with tech solutions. 
         </p>
         <br />
